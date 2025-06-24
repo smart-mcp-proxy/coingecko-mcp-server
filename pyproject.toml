@@ -1,0 +1,17 @@
+[project]
+name = "coingecko-mcp-server"
+version = "0.1.0"
+description = "MCP Server for CoinGecko API"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=2.8.0",
+    "httpx>=0.24.0",
+]
+
+[project.scripts]
+coingecko-mcp-server = "main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

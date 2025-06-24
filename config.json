@@ -1,0 +1,9 @@
+{
+  "name": "CoinGecko API",
+  "base_url": "https://api.coingecko.com/api/v3",
+  "openapi_spec_path": "coingecko-public-api-v3.json",
+  "headers": {},
+  "env_headers": {
+    "x-cg-demo-api-key": "COINGECKO_API_KEY"
+  }
+} 
