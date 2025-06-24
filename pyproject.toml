@@ -10,7 +10,7 @@ dependencies = [
 ]
 
 [project.scripts]
-coingecko-mcp-server = "main:main"
+coingecko-mcp-server = "coingecko_mcp_server:main"
 
 [build-system]
 requires = ["hatchling"]
